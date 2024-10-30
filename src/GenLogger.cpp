@@ -5,9 +5,6 @@
 
 SharedMemRingBuffer gSharedMemRingBuffer (SLEEPING_WAIT);
 
-namespace Verdi
-{
-
 namespace GSL {
 
 int Init(void)
@@ -47,4 +44,3 @@ void DisruptorMessage(std::string message)
 }
 
 } // namespace GSL
-} // namespace Verdi
